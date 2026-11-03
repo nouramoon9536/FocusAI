@@ -15,7 +15,7 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 st.set_page_config(page_title='FocusAI | بصمة الانتباه', page_icon='🧠', layout='wide', initial_sidebar_state='collapsed')
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-IMG = os.path.join(BASE, 'assets', 'img')
+IMG = BASE
 DATA_FILE = os.path.join(BASE, 'focusai_data.csv')
 
 # ---------- data ----------
